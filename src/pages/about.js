@@ -1,41 +1,17 @@
 import React from 'react'
-import "../css/about.css"
-import durga from '../images/durga.jfif';
-import balareddy from '../images/people/balareddy.jpeg'
-import chandra from '../images/people/chandrashekar.jpeg'
-function about() {
+import '../css/about.css'
+const about = () => {
   return (
-    <div class="container">
-    <div class="person">
-      <img src={durga} alt="Person 1"/>
-      <div class="details">
-        <h2>Venkata Narayana</h2>
-        <p>CEO</p>
-      </div>
+   <>
+      <h1>Team</h1>
+      <div className='team'>
+      <h1>CEO<br/>Cheif Excutive Officer</h1>
+      <h1>CTO<br/>Cheif Technical Officer</h1>
+      <h1>CMO<br/>Cheif Managing Officer</h1>
+      <h1>SHARE HOLDER<br/>All Rounder</h1>
+
     </div>
-    <div class="person">
-      <img src={balareddy} alt="Person 2"/>
-      <div class="details">
-        <h2>Satyasimha Bala reddy</h2>
-        <p>CTO</p>
-      </div>
-    </div>
-    <div class="person">
-      <img src={durga} alt="Person 3"/>
-      <div class="details">
-        <h2>Kondaveeti Durga Shankar</h2>
-        <p>CMO</p>
-      </div>
-    </div>
-    <div class="person">
-      <img src={chandra} alt="Person 4"/>
-      <div class="details">
-        <h2>chandra shekar</h2>
-        <p>Share Holder</p>
-      </div>
-    </div>
-  </div>
-  
+    </>
   )
 }
 

@@ -13,7 +13,7 @@ function App() {
       <div className="taskbar">
         <img className="logo" src={logo} alt="logo"></img>
         <ul className="buttons">
-          <li><Link to="/" className="my-link">Home</Link></li>
+          <li><Link to="/Vsolutions" className="my-link">Home</Link></li>
           <li><Link to="/Service" className="my-link">Service</Link></li>
           <li><Link to="/about" className="my-link">About</Link></li>
           <li><Link to="/Contact" className="my-link">Contact Us</Link></li>
@@ -21,7 +21,7 @@ function App() {
         </div>
 <div>
   <Routes>
-    <Route path="/" element={<Home/>}/>
+    <Route path="/Vsolutions" element={<Home/>}/>
     <Route path="/Service" element={<Service/>}/>
     <Route path="/about" element={<About/>}/>
     <Route path="/Contact" element={<Contact/>}/>

@@ -6,7 +6,7 @@
 .offer_details
 {
     display: flex;
-    align-items: center; 
+   justify-content: center;
 }
 .offer_details p
 {
@@ -68,12 +68,14 @@
 }
 .techcss
 {
-   margin-left: 25rem;
+   display: flex;
+   justify-content: center;
 }
 
 .tech
 {
-    width: 5rem;
+    width: 6rem;
+    height: 6rem;
     padding-left: 25px; 
 }
 

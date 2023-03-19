@@ -1,62 +1,7 @@
-.container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    max-width: 1000px;
-    margin-top: 5rem;
-    margin-left: 15rem;
-   
-    
-  }
-  
-  .person {
-    position: relative;
-    width: calc(25% - 20px);
-    height: 300px;
-    margin-bottom: 40px;
-    overflow: hidden;
-  }
-  
-  .person img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 15rem;
-    max-height: 100%;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .person:hover img {
-    transform: translate(-70%, -50%) scale(1);
-  }
-  
-  .person .details {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 50%;
-    height: 100%;
-    background-color: #fff;
-    opacity: 0;
-    transition: all 0.5s ease-in-out;
-  }
-  
-  .person:hover .details {
-    opacity: 1;
-    transform: translateX(-40%);
-  }
-  
-  .person .details h2 {
-    margin: 0;
-    padding: 20px;
-    font-size: 20px;
-  }
-  
-  .person .details p {
-    margin: 0;
-    padding: 0 20px 20px;
-    font-size: 16px;
-  }
-  
+.team
+{
+  display: flex;
+  color: rebeccapurple;
+
+  justify-content: space-around;
+}

@@ -17,11 +17,11 @@ function home() {
 <div className='Home'>
       <div className='features'>
         <h1 style={{color:"grey",opacity:'40%',marginBottom:'0px',fontSize:"3rem"}}>FEATURES</h1>
-        <h4 style={{color:"RGB(19, 35, 74)",marginTop:'-25px',fontSize:"2rem",paddingTop:"px"}}>WE OFFER</h4>
+        <h4 style={{color:"RGB(19, 35, 74)",marginTop:'-25px',fontSize:"2rem"}}>WE OFFER</h4>
       </div>
   <div className='offer_details'>
         <div className='customBox1'>
-          <h3>Custom Web Development</h3>
+          <h3>Web Development</h3>
           <p>Hire us to build a good custom made website that fulfills your unique requirement. Custom made application can provide you numerous benefit such as customer centric designs, more competitive advantage, search engine optimization and flexibility in hosting.</p>
         </div>
         <div className='customBox2'>
@@ -40,7 +40,7 @@ function home() {
         <h1 style={{color:"grey",opacity:'40%',marginBottom:'0px',fontSize:"3rem"}}>PROCESS</h1>
         <h4 style={{color:"RGB(19, 35, 74)",marginTop:'-25px',fontSize:"2rem",paddingTop:"px"}}>HOW OUR PROJECT COME ALIVE!!</h4>
       </div>
-  <img src={path} style={{paddingLeft:'28%',width:'45rem' ,height:'35rem'}} alt="plan of action"></img>
+  <img src={path} style={{paddingLeft:'30%',width:'45rem' ,height:'35rem'}} alt="plan of action"></img>
      <br/><br/><br/>
   <div className='features'>
         <h1 style={{color:"grey",opacity:'40%',marginBottom:'0px',fontSize:"3rem",paddingTop:'-100'}}>TECHNOLOGY</h1>
@@ -55,34 +55,34 @@ function home() {
       <img src={angular}  alt='tech' className='tech'/>
       <img src={mysql}  alt='tech' className='tech'/>
       </div>
-      <div className='features '>
+      <div className='features'>
         <h1 style={{color:"grey",opacity:'40%',marginBottom:'0px',fontSize:"3rem",paddingTop:'-100'}}>WE OFFER</h1>
         <h4 style={{color:"RGB(19, 35, 74)",marginTop:'-25px',fontSize:"2rem"}}>ADDITIONAL FEATURES</h4>
       </div>
       <div className='details'>
         <div className='box'>
-          <img src={security} alt="nothing" style={{width:'6rem',float:'right'}}/>
+          <img src={security} alt="nothing" style={{width:'6rem',height:'7rem',float:'right'}}/>
           <h3>Security of firmware and software:</h3>
           <p>We want our customer to feel safe and secure against any cyber-attack and able to protect their sensitive data. 
           Incorporating security into the firmware level of IoT devices enables us to provide a much stronger guarantee of safety 
           and security to our customers.</p>
           </div>
           <div className='box'>
-          <img src={customer} alt="nothing" style={{width:'6rem',float:'right'}}/>
+          <img src={customer} alt="nothing" style={{width:'6rem',height:'7rem',float:'right'}}/>
           <h3>Security of firmware and software:</h3>
           <p>We want our customer to feel safe and secure against any cyber-attack and able to protect their sensitive data. 
           Incorporating security into the firmware level of IoT devices enables us to provide a much stronger guarantee of safety 
           and security to our customers.</p>
           </div>
           <div className='box'>
-          <img src={employees} alt="nothing" style={{width:'6rem',float:'right'}}/>
+          <img src={employees} alt="nothing" style={{width:'6rem',height:'7rem',float:'right'}}/>
           <h3>Security of firmware and software:</h3>
           <p>We want our customer to feel safe and secure against any cyber-attack and able to protect their sensitive data. 
           Incorporating security into the firmware level of IoT devices enables us to provide a much stronger guarantee of safety 
           and security to our customers.</p>
           </div>
           <div className='box'>
-          <img src={smartphone} alt="nothing" style={{width:'6rem',float:'right'}}/>
+          <img src={smartphone} alt="nothing" style={{width:'6rem',height:'7rem',float:'right'}}/>
           <h3>Security of firmware and software:</h3>
           <p>We want our customer to feel safe and secure against any cyber-attack and able to protect their sensitive data. 
           Incorporating security into the firmware level of IoT devices enables us to provide a much stronger guarantee of safety 
