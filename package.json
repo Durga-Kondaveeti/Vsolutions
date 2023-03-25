@@ -1,7 +1,7 @@
 {
   "name": "vsolutions",
   "version": "0.1.0",
-  "homepage": "http://Durga-kondaveeti.github.io/Vsolutions",
+  "homepage": "http://Durga-kondaveeti.github.io/Vsolutions/Vsolutions",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
