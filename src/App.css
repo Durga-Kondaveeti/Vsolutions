@@ -47,24 +47,16 @@ li
     text-align: center;
     color: #ddd4e0;
     background-color:black;
-    display: flex;
-    justify-content: space-around;
-}
-.copyrights
-{
-    padding-top: 2rem;
-    padding-left: 25rem;
-}
-.details
-{
-  text-align: start;
+
 }
 .footer a
 {
- 
+  color: azure;
   text-decoration: none;
-  color: white;
-  font-size: small;
-  
-  
+
+}
+.contactDetails
+{
+  text-align: start;
+  float: right;
 }

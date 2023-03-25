@@ -29,17 +29,17 @@ function App() {
   </div>
   {/* footer */}
     <div className="footer">
-      <div>
-  <p className='copyrights'>COPYRIGHTS &copy; MASTERPIECE</p></div>
-  <div className='details'>
-  <h5>Business Enquiry</h5>
+      
+  
+  <div className='contactDetails'>
+<p>Contact:-</p>
 <span>&#9742;</span>&nbsp;
   <a href="9701303529">9701303529</a><br/>
   <span>&#9993;</span>&nbsp;
-  <a href="vsolutions@gmail.com">vsolutions@gmail.com</a>
+  <a href="vsolutihttps://mail.google.com/mail/u/0/#sent?compose=GTvVlcSKjswkbDZxXXndmFDkSrJdbQThdzKdnrlZdrFGbMbcLkZBwnsTHwCRwHkFgnbmVkLCKLXvgons@gmail.com">vsolutions@gmail.com</a>
   </div>
+    
     </div>
-
     </div>
   );
 }
